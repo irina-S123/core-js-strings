@@ -527,33 +527,3 @@ function getCardId(value) {
   return suitIndex * ranks.length + rankIndex;
 }
 
-module.exports = {
-  getStringLength,
-  isString,
-  concatenateStrings,
-  getFirstChar,
-  removeLeadingAndTrailingWhitespaces,
-  removeLeadingWhitespaces,
-  removeTrailingWhitespaces,
-  repeatString,
-  removeFirstOccurrences,
-  removeLastOccurrences,
-  sumOfCodes,
-  endsWith,
-  startsWith,
-  formatTime,
-  reverseString,
-  countVowels,
-  orderAlphabetically,
-  containsSubstring,
-  isPalindrome,
-  findLongestWord,
-  reverseWords,
-  invertCase,
-  getStringFromTemplate,
-  extractNameFromTemplate,
-  extractEmails,
-  unbracketTag,
-  encodeToRot13,
-  getCardId,
-};
